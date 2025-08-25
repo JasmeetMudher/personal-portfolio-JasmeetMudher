@@ -28,10 +28,12 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   background-color: #555;
+  text-decoration: underline;
 }
 
-header, section {
-  background: white;
+header,
+section {
+  background: lightblue;
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
@@ -41,7 +43,8 @@ form label {
   font-weight: bold;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 8px;
   margin: 6px 0 12px;
